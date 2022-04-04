@@ -1,0 +1,19 @@
+# git
+alias gitdot='git --git-dir=$DOTFILES --work-tree=$HOME' alias gits="git status"
+alias gita="git add"
+alias gitp="git push"
+alias gitec="git commit -m 'No Commit Message'"
+
+# cpp
+alias cppr="g++ -pedantic-errors -Wall -Weffc++ -Wextra -Wsign-conversion -std=c++17 -Werror -o output"
+
+# youtube-dl
+# Download formatted playlist
+alias ytp="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' -o '%(playlist_index)s-%(title)s.%(ext)s'"
+# Download audio only
+alias yta="yt-dlp -f 'bestaudio[ext=m4a]' -o '%(title)s.%(ext)s'"
+# Download video
+alias ytv="yt-dlp -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' -o '%(title)s.%(ext)s'"
+
+# ssh
+alias sshstart="eval $(ssh-agent); ssh-add $HOME/.ssh/id_rsa_git{lab,hub}"

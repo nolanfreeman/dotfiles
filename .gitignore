@@ -1,0 +1,57 @@
+# System Folders
+Applications
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+Templates
+Videos
+
+# Workflow Determined
+.emacs.d/
+
+# Private Tings
+.ssh/
+.gnupg/
+.rainbow_oauth
+
+# Non-Config Folders
+gPodder
+.BitwigStudio/
+.audacity-data
+.cert/
+.mozilla/
+.gnome
+Standard\ Notes\ Backups/
+
+# Other Folders
+.steam/
+.zoom/
+
+# Logging
+*.log
+.zsh_history
+.bash_history
+.python_history
+.cache/
+.zcompdump-pop-os-*
+completer.hist
+
+
+# Other Files
+.zcompdump
+.viminfo
+.bash_logout
+*.copy
+.nvidia-settings-rc
+.lesshst
+
+# Drive Mount Points
+T7
+Media
+
+# Unsure ignores
+
+

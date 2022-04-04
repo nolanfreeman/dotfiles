@@ -1,0 +1,7 @@
+ 
+T7=/$HOME/T7
+MEDIA=$HOME/Media
+DOTFILES=$HOME/Documents/projects/dotfiles
+
+GPODDER_HOME=$HOME/Media/Podcasts/_gPodder
+GPODDER_DOWNLOAD_DIR=$HOME/Media/Podcasts/

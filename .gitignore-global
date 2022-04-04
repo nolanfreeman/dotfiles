@@ -1,0 +1,19 @@
+# general
+*~
+
+# emacs
+.\#*
+
+# vim
+*.swp
+*.swo
+
+# mac os
+.DS_Store
+
+# python
+*.pyc
+*.pyo
+
+# npm
+node_modules/
